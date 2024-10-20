@@ -1,0 +1,33 @@
+.carm {
+  /* Define la altura del carrusel */
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08592B;
+}
+
+.imagen {
+  height: 35rem;
+
+
+}
+@media (min-width: 320px) and (max-width: 950px) {
+  .carm {
+    height: 15rem;
+  }
+  .imagen {
+    height: 15rem;
+  
+  
+  }
+  
+}
+
+
+.slide {
+
+  width: 100%;
+
+}
