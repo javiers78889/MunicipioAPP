@@ -262,7 +262,7 @@
 
 /*** Carousel Hero Header Start ***/
 .header-carousel .header-carousel-item {
-    height: 500px;
+    height: 700px;
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -895,6 +895,17 @@
 /*** copyright end ***/
 
 
-  
+.colorMun{
+    background: #054424;
+}
 
+.textMun{
+    color:#198754;
+}
+.colorMundos{
+    color:#0ba756;
+}
 
+.borderMun {
+    border-right: 1px solid #198754; /* Borde derecho de 1rem, sólido y color verde */
+}
