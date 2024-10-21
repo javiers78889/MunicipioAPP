@@ -1,7 +1,7 @@
 import React from 'react';
-import imagen from '../../img/carousel-2.png';
-import imagen2 from '../../img/team-1.jpg';
-import imagen3 from '../../img/team-2.jpg';
+import imagen from '../../img/carousel1.jpg';
+import imagen2 from '../../img/carousel2.jpg';
+import imagen3 from '../../img/carousel3.jpg';
 import '../../css/ModalSlider.css'; // Importar el archivo CSS personalizado
 
 export const ModalSlider = () => {
