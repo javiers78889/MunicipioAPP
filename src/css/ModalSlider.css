@@ -1,6 +1,6 @@
 .carm {
   /* Define la altura del carrusel */
-  height: 35rem;
+  height: 60rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,16 +9,27 @@
 }
 
 .imagen {
-  height: 35rem;
+  height: 60rem;
 
 
 }
-@media (min-width: 320px) and (max-width: 950px) {
+@media (min-width: 320px) and (max-width: 800px) {
   .carm {
     height: 15rem;
   }
   .imagen {
     height: 15rem;
+  
+  
+  }
+  
+}
+@media (min-width: 801px) and (max-width: 950px) {
+  .carm {
+    height: 30rem;
+  }
+  .imagen {
+    height: 30rem;
   
   
   }
