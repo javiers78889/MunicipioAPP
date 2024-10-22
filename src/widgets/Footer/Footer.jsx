@@ -31,7 +31,13 @@ export const Footer = () => {
                         <AddressMail />
                     </div>
 
-                    <Mapa/>
+                    <Mapa />
+                </div>
+            </div>
+            {/*Seccion del copyright */}
+            <div className="container-fluid copyright py-4 text-center">
+                <div className="container">
+                    <p className="mb-0">&copy; 2024-2029 | Municipio de Chame. Todos los derechos reservados.</p>
                 </div>
             </div>
         </div>

@@ -13,18 +13,7 @@ export const AddressMail = () => {
                                 </div>
                                 <div>
                                     <h4 className="text-white">Dirección</h4>
-                                    <p className="mb-0">Vía Interamericana , Chame Cabecera</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                            <div className="d-flex">
-                                <div className="btn-xl-square bg-primary text-white rounded p-4 me-4">
-                                    <i className="fas fa-envelope fa-2x"></i>
-                                </div>
-                                <div>
-                                    <h4 className="text-white">Correo</h4>
-                                    <p className="mb-0">info@example.com</p>
+                                    <p className="mb-0">Vía Interamericana, Chame cabecera</p>
                                 </div>
                             </div>
                         </div>
