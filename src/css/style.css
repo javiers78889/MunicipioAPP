@@ -890,7 +890,10 @@
 /*** copyright Start ***/
 .copyright {
     background: var(--bs-dark);
+    color: #fff; /* Asegura que el texto sea blanco */
     border-top: 1px solid rgba(255, 255, 255, .08);
+    text-align: center; /* Centra el contenido */
+    padding: 10px 0; /* Agrega algo de espacio interno */
 }
 /*** copyright end ***/
 
