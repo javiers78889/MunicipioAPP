@@ -23,7 +23,7 @@ const Navbar = () => {
                             <div className="navbar-nav mx-0 mx-lg-auto">
                                 <a href="index.html" className="nav-item nav-link active">Inicio</a>
                                 <a href="about.html" className="nav-item nav-link">Municipio</a>
-                                <a href="service.html" className="nav-item nav-link">Servicios</a>
+                                <a href="service.html" className="nav-item nav-link">Departamentos</a>
                                 <a href="blog.html" className="nav-item nav-link">Noticias</a>
                                 <a href="404.html" className="nav-item nav-link">Turismo</a>
                                 <a href="404.html" className="nav-item nav-link">Trámites y Requisitos</a>
