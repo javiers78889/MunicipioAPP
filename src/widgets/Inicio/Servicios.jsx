@@ -9,7 +9,7 @@ export const Servicios = () => {
             <div className="container py-5">
                 <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px' }}>
                     <h4 className="text-primary">-</h4>
-                    <h1 className="display-4 mb-4">Departamentos del Municipio de Chame</h1>
+                    <h1 className="display-4 mb-4">Departamentose</h1>
                     <p className="mb-0"></p>
                 </div>
                 <div className="row g-4 justify-content-center">

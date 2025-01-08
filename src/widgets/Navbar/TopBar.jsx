@@ -9,7 +9,7 @@ export const TopBar = () => {
                     <div className="d-flex flex-wrap">
                         <div className="border-end border-primary pe-3">
                             <a href="#" className="text-muted small"><i
-                                    className="fas fa-map-marker-alt text-primary me-2"></i>Ubicación</a>
+                                    className="fas fa-map-marker-alt text-primary me-2"></i>Vía Interamericana, Chame cabecera</a>
                         </div>
                         <div className="ps-3">
                             

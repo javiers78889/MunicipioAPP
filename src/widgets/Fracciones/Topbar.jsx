@@ -10,7 +10,7 @@ const Topbar = () => {
             <div className="d-flex flex-wrap">
               <div className="border-end borderMun pe-3">
                 <a href="#" className="text-muted small">
-                  <i className="fas fa-map-marker-alt textMun me-2"></i>Ubicación
+                  <i className="fas fa-map-marker-alt textMun me-2"></i>Vía Interamericana, Chame cabecera
                 </a>
               </div>
               <div className="ps-3">

@@ -35,7 +35,7 @@ export const Navbar = () => {
                                 Municipio
                             </Link>
                             <Link to="/servicios" className="nav-item nav-link">
-                                Servicios
+                                Departamentos
                             </Link>
                             <Link to="/noticias" className="nav-item nav-link">
                                 Noticias
