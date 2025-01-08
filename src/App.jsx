@@ -12,17 +12,19 @@ import { Turismo } from './componentes/Turismo';
 import { Preguntas } from './componentes/Preguntas';
 import { Comercios } from './componentes/Comercios';
 import { Transparencia } from './componentes/Transparencia';
+import { Barras } from './layouts/Barras';
+import { Services } from './views/Services';
 
 function App() {
   return (
     <>
-      <TopBar />
-      <Navbar />
-      <ModalSearch />
 
-      
-        <Routes>
-          <Route path='/' element={<Inicio />} />
+
+
+
+      <Routes >
+        <Route path='/' element={<Barras />}>
+          <Route index={true} element={<Inicio />} />
           <Route path='/municipio' element={<Municipio />} />
           <Route path='/servicios' element={<Servicios />} />
           <Route path='/noticias' element={<Noticias />} />
@@ -31,9 +33,11 @@ function App() {
           <Route path='/preguntas' element={<Preguntas />} />
           <Route path='/comercios' element={<Comercios />} />
           <Route path='/transparencia' element={<Transparencia />} />
-        </Routes>
-      
-    
+          <Route path='/utilidades/:service' element={<Services />} />
+        </Route>
+      </Routes>
+
+
 
       <Footer />
 
