@@ -18,7 +18,7 @@ export const Departamentos = ({item}) => {
       </div>
       <div className="service-content p-4">
         <div className="service-content-inner">
-          <Link to={`/utilidades/${'alcaldia'}`} className="d-inline-block h4 mb-4">
+          <Link to={`/utilidades/${item.name}`} className="d-inline-block h4 mb-4">
             {item.name}
           </Link>
           <Link to={`/utilidades/${item.name}`} className="btn btn-primary rounded-pill py-2 px-4" href="#">
